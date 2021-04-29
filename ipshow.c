@@ -28,6 +28,7 @@ struct ifreq getIP(char* netInterfaceName){
     return ifr;
 }
  
+//this is some comment I added
 int main()
 {
     struct ifreq ifr;
